@@ -15,7 +15,13 @@ Imports:
   dplyr,
   ggplot2,
   purrr,
-  tidyr
+  tidyr,
+  shiny,
+  duckdb,
+  DBI,
+  DT,
+  ctrialsgov,
+  forcats
 Suggests: 
     knitr,
     rmarkdown,

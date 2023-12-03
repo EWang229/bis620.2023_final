@@ -1,16 +1,17 @@
 #' @title Runs the shiny app
 #' @description starts the shiny app
 #' @return None.
+#' @importFrom utils head
 run_shiny_app <- function() {
-  library(shiny)
-  library(duckdb)
-  library(dplyr)
-  library(DBI)
-  library(DT)
-  library(ggplot2)
-  library(ctrialsgov)
-  library(tidyr)
-  library(forcats)
+  #library(shiny)
+  #library(duckdb)
+  #library(dplyr)
+  #library(DBI)
+  #library(DT)
+  #library(ggplot2)
+  #library(ctrialsgov)
+  #library(tidyr)
+  #library(forcats)
 
   ctgov_get_latest_snapshot(db_path = "ctgov.duckdb",
                             db_derived_path = "ctgov-derived.duckdb")

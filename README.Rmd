@@ -20,7 +20,11 @@ knitr::opts_chunk$set(
 [![test-coverage](https://github.com/EWang229/bis620.2023/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/EWang229/bis620.2023/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
-The goal of bis620.2023 is to ...
+The bis620.2023 package contains functions that work on accelerometry data, as well as data from ctrialsgov. Make sure to look at the function descriptions in order to decide which function to use. 
+
+For the accelerometry data, there are simple functions to use, such as plot_accel() and spec_sig(). 
+
+For the ctrialsgov data, use the run_shiny_app() function in order to start the  shiny app. As you will see from the shiny app UI, there are several ways to query the data, such as typing in keyword(s) or selecting a sponsor type from the dropdown. Then, you may look at histograms of certain attributes, such as conditions, endpoints, adverse events, and interventional/observational study types.  Enjoy!
 
 ## Installation
 

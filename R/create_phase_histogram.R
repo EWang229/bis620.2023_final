@@ -4,7 +4,8 @@
 #' @param studies a dataset with the phase information
 #' @return ggplot object that shows a histogram of the distribution of
 #' phases
-#' @importFrom dplyr compute collect select group_by summarize
+#' @importFrom dplyr compute select group_by summarize collect
+#' @importFrom tidyr complete
 #' @importFrom ggplot2 aes ggplot geom_col theme_bw xlab ylab
 #' @export
 #'

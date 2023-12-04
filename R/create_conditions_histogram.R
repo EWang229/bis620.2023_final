@@ -6,6 +6,8 @@
 #' conditions
 #' @importFrom dplyr select left_join group_by summarize mutate arrange desc
 #' @importFrom ggplot2 aes ggplot geom_col theme_bw labs scale_y_log10 theme
+#' element_text
+#' @importFrom forcats fct_lump_n
 #' @export
 #'
 create_conditions_histogram = function(d, conditions) {

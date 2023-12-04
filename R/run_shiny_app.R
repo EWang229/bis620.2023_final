@@ -140,8 +140,10 @@ run_shiny_app <- function() {
       ylab("Count")
   }
 
+  designs <- collect(designs)  # for the following 2 functions only
+
   create_intervention_histogram = function(d, designs) {
-    merged <- left_join(d, collect(designs), by = "nct_id")
+    merged <- left_join(d, designs, by = "nct_id")
     merged_interv <- merged |>
       select(intervention_model) |>
       filter(!is.na(intervention_model)) |>
@@ -159,7 +161,7 @@ run_shiny_app <- function() {
   }
 
   create_observational_histogram = function(d, designs) {
-    merged <- left_join(d, collect(designs), by = "nct_id")
+    merged <- left_join(d, designs, by = "nct_id")
     merged_observ <- merged |>
       select(observational_model) |>
       filter(!is.na(observational_model)) |>

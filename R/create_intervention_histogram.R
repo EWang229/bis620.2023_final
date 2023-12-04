@@ -5,12 +5,12 @@
 #' @param designs the handle referencing the "designs" database table
 #' @return ggplot object that shows a histogram of the distribution of
 #' intervention study types
-#' @importFrom dplyr select left_join group_by summarize collect filter
+#' @importFrom dplyr select left_join group_by summarize collect filter n
 #' @importFrom ggplot2 aes ggplot geom_col theme_bw labs coord_flip xlab ylab
 #' @export
 #'
 create_intervention_histogram = function(d, designs) {
-  merged <- left_join(d, collect(designs), by = "nct_id")
+  merged <- left_join(d, designs, by = "nct_id")
   merged_interv <- merged |>
     select(intervention_model) |>
     filter(!is.na(intervention_model)) |>

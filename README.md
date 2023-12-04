@@ -9,6 +9,9 @@
 [![test-coverage](https://github.com/EWang229/bis620.2023/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/EWang229/bis620.2023/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
+[Test Coverage
+Link](https://github.com/EWang229/bis620.2023/actions/workflows/test-coverage.yaml)
+
 The bis620.2023 package contains functions that work on accelerometry
 data, as well as data from ctrialsgov. Make sure to look at the function
 descriptions in order to decide which function to use.

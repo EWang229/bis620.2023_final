@@ -12,9 +12,12 @@
 [Test Coverage
 Link](https://github.com/EWang229/bis620.2023/actions/workflows/test-coverage.yaml)
 
+# Homework 3
+
 The bis620.2023 package contains functions that work on accelerometry
 data, as well as data from ctrialsgov. Make sure to look at the function
-descriptions in order to decide which function to use.
+descriptions in order to decide which functions to use for their
+respective data.
 
 For the accelerometry data, there are simple functions to use, such as
 plot_accel() and spec_sig().
@@ -48,3 +51,13 @@ accel |>
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
+
+Here is one example of a histogram pair you could generate within the
+shiny app:
+
+``` r
+create_intervention_histogram(studies_subset, designs)
+create_observational_histogram(studies_subset, designs)
+```
+
+<img src="man/figures/README-figures-side-1.png" width="50%" /><img src="man/figures/README-figures-side-2.png" width="50%" />

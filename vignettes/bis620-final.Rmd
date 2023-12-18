@@ -36,3 +36,11 @@ Given the above information, my research question is this:
 
 # Data Cleaning and Exploration
 
+Histograms
+
+Histograms are useful in identifying the distribution of numerical variables. They are the barplot version for continuous data. A histogram was used in order to analyze the distribution of the response variable and the numerical predictor variable. It is evident that the response variable, glyhb, is right skewed; however, the Central Limit Theorem will take care of the normality assumption. The numerical predictor variable, cholesterol to HDL ratio, looks almost normally distributed. For our study’s purposes, the predictor does not need to be normally distributed, but it is useful to look at its distribution to get a feel for the data.
+
+```{r}
+explore_hist()
+```
+

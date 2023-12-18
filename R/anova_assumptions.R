@@ -5,5 +5,8 @@
 #' @export
 anova_assumptions = function(x){
   diabetes_aov <- aov(glyhb ~ location*frame, data = x)
-  plot(diabetes_aov)
+  plot(diabetes_aov, which = 1)
+  plot(diabetes_aov, which = 2)
+  plot(diabetes_aov, which = 3)
+  plot(diabetes_aov, which = 4)
 }

@@ -13,5 +13,8 @@ lr_assumptions = function(x, log = FALSE){
   }
   diabetes_fit <- lm(pred ~ ratio, data = x)  # creating a fitted line with the
   # numerical predictor, ratio
-  plot(diabetes_fit)
+  plot(diabetes_fit, which = 1)
+  plot(diabetes_fit, which = 2)
+  plot(diabetes_fit, which = 3)
+  plot(diabetes_fit, which = 4)
 }

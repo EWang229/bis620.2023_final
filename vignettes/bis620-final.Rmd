@@ -36,8 +36,23 @@ Given the above information, my research question is this:
 
 # Data Cleaning and Exploration
 
+The first step I will do before beginning my analysis is cleaning the data. Fortunately, the dataset was recorded quite well, and the only thing we need to do is take out columns that are NA or missing. Then, we simply select our variables of interest. My clean_data() function will do all of that for me below.
+
+```{r}
+data(diabetes)
+diabetes <- clean_data(diabetes)  # function will clean my data for me
+```
+
+
 Histograms
 
-Histograms are useful in identifying the distribution of numerical variables. They are the barplot version for continuous data. A histogram was used in order to analyze the distribution of the response variable and the numerical predictor variable. It is evident that the response variable, glyhb, is right skewed; however, the Central Limit Theorem will take care of the normality assumption. The numerical predictor variable, cholesterol to HDL ratio, looks almost normally distributed. For our study’s purposes, the predictor does not need to be normally distributed, but it is useful to look at its distribution to get a feel for the data.
+Histograms are useful in identifying the distribution of numerical variables. They are the barplot version for continuous data. A histogram was used in order to analyze the distribution of the response variable and the numerical predictor variable. It is evident that the response variable, glyhb, is right skewed; however, the Central Limit Theorem will take care of the normality assumption. The numerical predictor variable, cholesterol to HDL ratio, looks almost normally distributed. For our study’s purposes, the predictor does (glyhb) not need to be normally distributed, but it is useful to look at its distribution to get a feel for the data. I will run my explore_hist() function to look at the histograms of the quantitative variables, glyhb and ratio.
+
+```{r}
+par(mfrow = c(1, 2))
+explore_hist(diabetes)
+```
+
+As we can see, 
 
 

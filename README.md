@@ -12,12 +12,19 @@
 [Test Coverage
 Link](https://github.com/EWang229/bis620.2023/actions/workflows/test-coverage.yaml)
 
-# Homework 3
+# BIS 620 Final
 
 The bis620.2023 package contains functions that work on accelerometry
 data, as well as data from ctrialsgov. Make sure to look at the function
 descriptions in order to decide which functions to use for their
 respective data.
+
+Additionally, it allows for statistical analysis on diabetes data. There
+are various functions such as explore_hist() and anova_assumptions() to
+perform EDA, as well as aov_results and lr_results to perform the
+statistical analysis. The functions are specific to the diabetes data
+and a few choice predictors, but the functions work quite well and will
+save a lot of time.
 
 For the accelerometry data, there are simple functions to use, such as
 plot_accel() and spec_sig().
@@ -61,3 +68,13 @@ create_observational_histogram(studies_subset, designs)
 ```
 
 <img src="man/figures/README-figures-side-1.png" width="50%" /><img src="man/figures/README-figures-side-2.png" width="50%" />
+
+And one example of using a function from the package to perform
+Exploratory Data Analysis:
+
+``` r
+par(mfrow = c(2, 2))
+anova_assumptions(diabetes)
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />

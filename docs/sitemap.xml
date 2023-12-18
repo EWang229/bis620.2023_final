@@ -4,6 +4,9 @@
     <loc>/404.html</loc>
   </url>
   <url>
+    <loc>/articles/bis620-final.html</loc>
+  </url>
+  <url>
     <loc>/articles/index.html</loc>
   </url>
   <url>
@@ -20,6 +23,18 @@
   </url>
   <url>
     <loc>/reference/accel.html</loc>
+  </url>
+  <url>
+    <loc>/reference/anova_assumptions.html</loc>
+  </url>
+  <url>
+    <loc>/reference/aov_results.html</loc>
+  </url>
+  <url>
+    <loc>/reference/clean_data.html</loc>
+  </url>
+  <url>
+    <loc>/reference/conditions.html</loc>
   </url>
   <url>
     <loc>/reference/create_adverse_events_histogram.html</loc>
@@ -43,10 +58,25 @@
     <loc>/reference/designs.html</loc>
   </url>
   <url>
+    <loc>/reference/diabetes.html</loc>
+  </url>
+  <url>
+    <loc>/reference/endpoints.html</loc>
+  </url>
+  <url>
+    <loc>/reference/explore_hist.html</loc>
+  </url>
+  <url>
     <loc>/reference/hello.html</loc>
   </url>
   <url>
     <loc>/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/lr_assumptions.html</loc>
+  </url>
+  <url>
+    <loc>/reference/lr_results.html</loc>
   </url>
   <url>
     <loc>/reference/plot_accel.html</loc>

@@ -21,7 +21,9 @@ Imports:
   DBI,
   DT,
   ctrialsgov,
-  forcats
+  forcats,
+  pixiedust,
+  kableExtra
 Suggests: 
     knitr,
     rmarkdown,

@@ -30,7 +30,8 @@ Our analysis will take a slight turn and focus primarily on features related to 
 
 Given the above information, my research question is this:  
   
-**How does body size and living area affect one’s glycosolated hemoglobin (glyhb) levels, and are cholesterol to HDL ratios significantly predictive of glyhb levels? (note that a glyhb score > 7 is taken as a positive diagnosis of type II diabetes).**
+**How does body size and living area affect one’s glycosolated hemoglobin (glyhb) levels, and are cholesterol to HDL ratios significantly predictive of glyhb levels? (a glyhb score > 7 is taken as a positive diagnosis of type II diabetes).**
+  
 
 *Note: The data only contains African American patients from Louisa and Burmingham, so I will avoid making sweeping generalizations in my results. Moreover, we will assume that Dr. John Schorling's data was properly (randomly) sampled.*
 
